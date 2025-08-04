@@ -9,23 +9,23 @@ const AboutSection = () => {
   const values = [
     {
       icon: Target,
-      title: 'Human-Centered',
-      description: 'AI that amplifies human capabilities'
+      title: t('about.values.humanCentered.title'),
+      description: t('about.values.humanCentered.description')
     },
     {
       icon: Shield,
-      title: 'Ethical & Transparent',
-      description: 'Responsible AI development practices'
+      title: t('about.values.ethical.title'),
+      description: t('about.values.ethical.description')
     },
     {
       icon: Lightbulb,
-      title: 'Innovation',
-      description: 'Cutting-edge solutions for tomorrow'
+      title: t('about.values.innovation.title'),
+      description: t('about.values.innovation.description')
     },
     {
       icon: Users,
-      title: 'Collaboration',
-      description: 'Building together with unity'
+      title: t('about.values.collaboration.title'),
+      description: t('about.values.collaboration.description')
     }
   ];
 

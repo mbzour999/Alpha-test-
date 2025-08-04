@@ -14,7 +14,25 @@
   "about": {
     "title": "About Alpha AI",
     "headline": "Everyone serves a smarter world. We will build together, with courage, intelligence, innovation, and unity: And we will succeed.",
-    "description": "Our approach prioritizes human-centered design, using AI to handle repetitive tasks while humans focus on what they do best: empathy, decision-making, and building connections. Transparency and ethical review processes are essential to every implementation. We aim to be a recognized force in creating meaningful jobs, enabling ethical digital innovation, and shaping inclusive AI practices – both locally and globally."
+    "description": "Our approach prioritizes human-centered design, using AI to handle repetitive tasks while humans focus on what they do best: empathy, decision-making, and building connections. Transparency and ethical review processes are essential to every implementation. We aim to be a recognized force in creating meaningful jobs, enabling ethical digital innovation, and shaping inclusive AI practices – both locally and globally.",
+    "values": {
+      "humanCentered": {
+        "title": "Human-Centered",
+        "description": "AI that amplifies human capabilities"
+      },
+      "ethical": {
+        "title": "Ethical & Transparent",
+        "description": "Responsible AI development practices"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Cutting-edge solutions for tomorrow"
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Building together with unity"
+      }
+    }
   },
   "services": {
     "discoverMore": "Discover More",
