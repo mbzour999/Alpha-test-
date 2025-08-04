@@ -15,32 +15,6 @@
     "title": "About Alpha AI",
     "headline": "Everyone serves a smarter world. We will build together, with courage, intelligence, innovation, and unity: And we will succeed.",
     "description": "Our approach prioritizes human-centered design, using AI to handle repetitive tasks while humans focus on what they do best: empathy, decision-making, and building connections. Transparency and ethical review processes are essential to every implementation. We aim to be a recognized force in creating meaningful jobs, enabling ethical digital innovation, and shaping inclusive AI practices – both locally and globally.",
-    "foundingStory": "Founded with the vision of making AI accessible and beneficial for all, Alpha AI has grown from a small team of passionate researchers to a recognized leader in ethical AI development. We believe that the future of AI lies not in replacing human intelligence, but in augmenting it.",
-    "stats": {
-      "projectsCompleted": "Projects Completed",
-      "clientsServed": "Clients Served", 
-      "industries": "Industries",
-      "yearsExperience": "Years Experience"
-    },
-    "highlights": {
-      "mission": {
-        "title": "Our Mission",
-        "description": "To democratize AI technology and make it accessible for businesses of all sizes while maintaining ethical standards and human-centered design principles."
-      },
-      "team": {
-        "title": "Our Team",
-        "description": "A diverse group of AI researchers, data scientists, and engineers passionate about creating meaningful solutions that benefit humanity."
-      },
-      "values": {
-        "title": "Our Values",
-        "description": "Innovation, transparency, ethical AI practices, and a commitment to building technology that empowers rather than replaces human capabilities."
-      }
-    },
-    "ctaSection": {
-      "title": "Ready to Transform Your Business?",
-      "subtitle": "Let's discuss how AI can drive your success forward.",
-      "button": "Get in Touch"
-    },
     "values": {
       "humanCentered": {
         "title": "Human-Centered",

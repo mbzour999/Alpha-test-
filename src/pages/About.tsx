@@ -10,27 +10,27 @@ const About = () => {
   const { t } = useTranslation();
 
   const stats = [
-    { label: t('about.stats.projectsCompleted'), value: '150+' },
-    { label: t('about.stats.clientsServed'), value: '80+' },
-    { label: t('about.stats.industries'), value: '15+' },
-    { label: t('about.stats.yearsExperience'), value: '10+' },
+    { label: 'Projects Completed', value: '150+' },
+    { label: 'Clients Served', value: '80+' },
+    { label: 'Industries', value: '15+' },
+    { label: 'Years Experience', value: '10+' },
   ];
 
   const highlights = [
     {
       icon: Target,
-      title: t('about.highlights.mission.title'),
-      description: t('about.highlights.mission.description')
+      title: 'Our Mission',
+      description: 'To democratize AI technology and make it accessible for businesses of all sizes while maintaining ethical standards and human-centered design principles.'
     },
     {
       icon: Users,
-      title: t('about.highlights.team.title'),
-      description: t('about.highlights.team.description')
+      title: 'Our Team',
+      description: 'A diverse group of AI researchers, data scientists, and engineers passionate about creating meaningful solutions that benefit humanity.'
     },
     {
       icon: Award,
-      title: t('about.highlights.values.title'),
-      description: t('about.highlights.values.description')
+      title: 'Our Values',
+      description: 'Innovation, transparency, ethical AI practices, and a commitment to building technology that empowers rather than replaces human capabilities.'
     }
   ];
 
@@ -88,7 +88,7 @@ const About = () => {
                 {t('about.description')}
               </p>
               <p className="text-lg leading-relaxed">
-                {t('about.foundingStory')}
+                Founded with the vision of making AI accessible and beneficial for all, Alpha AI has grown from a small team of passionate researchers to a recognized leader in ethical AI development. We believe that the future of AI lies not in replacing human intelligence, but in augmenting it.
               </p>
             </div>
           </div>
@@ -122,14 +122,14 @@ const About = () => {
       <section className="py-16 bg-alpha-primary text-white">
         <div className="alpha-container text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            {t('about.ctaSection.title')}
+            Ready to Transform Your Business?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            {t('about.ctaSection.subtitle')}
+            Let's discuss how AI can drive your success forward.
           </p>
           <Button asChild size="lg" variant="secondary">
             <Link to="/contact">
-              {t('about.ctaSection.button')}
+              Get in Touch
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
