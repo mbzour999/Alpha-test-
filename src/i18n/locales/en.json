@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "overview": "Overview",
+    "about": "About Us",
+    "services": "Services",
+    "careers": "Careers",
+    "contact": "Contact Us",
+    "search": "Search"
+  },
+  "hero": {
+    "title": "Building Intelligence for Tomorrow",
+    "subtitle": "AI-powered solutions that transform industries and empower human potential"
+  },
+  "about": {
+    "title": "About Alpha AI",
+    "headline": "Everyone serves a smarter world. We will build together, with courage, intelligence, innovation, and unity: And we will succeed.",
+    "description": "Our approach prioritizes human-centered design, using AI to handle repetitive tasks while humans focus on what they do best: empathy, decision-making, and building connections. Transparency and ethical review processes are essential to every implementation. We aim to be a recognized force in creating meaningful jobs, enabling ethical digital innovation, and shaping inclusive AI practices – both locally and globally."
+  },
+  "services": {
+    "discoverMore": "Discover More",
+    "title": "Our Services",
+    "subtitle": "Comprehensive AI solutions tailored to your business needs",
+    "dataAnalytics": {
+      "title": "Data analytics",
+      "description": "Unlock actionable insights through our end-to-end analytics approach."
+    },
+    "intelligentAssistants": {
+      "title": "AI Assistants and AI Agents",
+      "description": "AI Assistants and AI Agents help unlock the full potential of your workforce by taking over repetitive, time-consuming tasks."
+    },
+    "predictionModels": {
+      "title": "Prediction models",
+      "description": "Make informed decisions and stay ahead of customer needs with our advanced prediction models."
+    },
+    "recommendationModels": {
+      "title": "Recommendation models",
+      "description": "Deliver smart, personalized shopping experiences. Our recommendation systems reduce search time."
+    },
+    "regressionModels": {
+      "title": "Regression models",
+      "description": "Boost operational efficiency with forecasting solutions tailored to your business."
+    },
+    "emotionalAnalysis": {
+      "title": "Sentimental analysis models",
+      "description": "Protect your brand and business in real time with advanced sentiment analysis across all unstructured data sources."
+    },
+    "clusteringModels": {
+      "title": "Clustering models",
+      "description": "Understand customer diversity at scale. We segment your audience into actionable clusters."
+    },
+    "computerVision": {
+      "title": "Computer vision",
+      "description": "Our computer vision solutions bring intelligence to visual data—helping organizations automate visual tasks."
+    },
+    "temporalAnalysis": {
+      "title": "Temporal data analysis models",
+      "description": "Plan with confidence using advanced time series forecasting."
+    }
+  },
+  "sectors": {
+    "title": "Sectors We Serve",
+    "subtitle": "Delivering AI excellence across diverse industries",
+    "retail": "Retail & E-commerce",
+    "banking": "Banking & Financial Services",
+    "healthcare": "Healthcare",
+    "education": "Education",
+    "tourism": "Hospitality & Tourism",
+    "logistics": "Transportation & Logistics",
+    "realEstate": "Real Estate",
+    "professional": "Professional Services (law, consulting, accounting)",
+    "communications": "Telecommunications"
+  },
+  "careers": {
+    "title": "Join Alpha AI",
+    "subtitle": "Shape the future of AI technology while building meaningful solutions for tomorrow's world.",
+    "exploreCareers": "Explore Opportunities",
+    "benefits": {
+      "collaborative": {
+        "title": "Collaborative Environment",
+        "description": "Work with diverse, talented teams building the future of AI"
+      },
+      "growth": {
+        "title": "Professional Growth", 
+        "description": "Continuous learning opportunities and career advancement"
+      },
+      "innovation": {
+        "title": "Innovation Culture",
+        "description": "Be part of groundbreaking AI research and development"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready to transform your business with AI? Let's start the conversation.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company (Optional)",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "location": "Location",
+      "email": "Email",
+      "phone": "Phone"
+    }
+  },
+  "footer": {
+    "tagline": "Building a smarter world through ethical AI innovation",
+    "copyright": "© 2024 Alpha AI. All rights reserved.",
+    "followUs": "Follow Us",
+    "navigation": "Navigation",
+    "madeWith": "©2025 Developed by dot.jo. All rights reserved."
+  },
+  "language": {
+    "en": "English",
+    "ar": "العربية"
+  },
+  "cta": {
+    "badge": "Transform your business today",
+    "title": "Ready to revolutionize your future?",
+    "subtitle": "Join the AI revolution and discover limitless possibilities for your business. Let's build something extraordinary together.",
+    "startJourney": "Start your journey",
+    "watchDemo": "Watch the demo",
+    "stats": {
+      "projects": "Projects completed",
+      "satisfaction": "Client satisfaction",
+      "support": "Expert support"
+    }
+  },
+  "smallCta": {
+    "title": "Ready to transform your business?",
+    "subtitle": "Join hundreds of companies using AI to revolutionize their operations. Let's discuss how we can help you achieve your goals.",
+    "getStarted": "Get Started Today"
+  }
+}
