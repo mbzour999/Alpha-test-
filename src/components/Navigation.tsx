@@ -32,9 +32,9 @@ const Navigation = () => {
 
   const aboutItems = [
     { label: 'Overview', href: '/about' },
+    { label: 'Industries', href: '/industries' },
     { label: 'Vision and Mission', href: '/vision-mission' },
     { label: 'Team', href: '/team' },
-    { label: 'Industries', href: '/industries' },
   ];
 
   const servicesItems = [
