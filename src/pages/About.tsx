@@ -82,14 +82,29 @@ const About = () => {
       {/* About Content */}
       <section className="py-16">
         <div className="alpha-container">
-          <div className="max-w-4xl mx-auto">
-            <div className="prose prose-lg max-w-none text-alpha-secondary mb-12">
-              <p className="text-xl leading-relaxed mb-6">
-                {t('about.description')}
-              </p>
-              <p className="text-lg leading-relaxed">
-                Founded with the vision of making AI accessible and beneficial for all, Alpha AI has grown from a small team of passionate researchers to a recognized leader in ethical AI development. We believe that the future of AI lies not in replacing human intelligence, but in augmenting it.
-              </p>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="prose prose-lg max-w-none text-alpha-secondary">
+                <p className="text-xl leading-relaxed mb-6">
+                  {t('about.description')}
+                </p>
+                <p className="text-lg leading-relaxed">
+                  Founded with the vision of making AI accessible and beneficial for all, Alpha AI has grown from a small team of passionate researchers to a recognized leader in ethical AI development. We believe that the future of AI lies not in replacing human intelligence, but in augmenting it.
+                </p>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="aspect-video bg-gradient-to-br from-alpha-primary/20 to-alpha-secondary/20 rounded-3xl overflow-hidden shadow-lg">
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  poster="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
+                >
+                  <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-br from-alpha-primary/10 to-transparent rounded-3xl pointer-events-none"></div>
             </div>
           </div>
         </div>
