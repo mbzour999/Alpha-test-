@@ -196,7 +196,7 @@ const Team = () => {
       </section>
 
       {/* Join Us CTA */}
-      <section className="py-16 bg-alpha-primary text-white">
+      <section className="py-16 bg-gradient-to-r from-[#009ec2] to-[#00e66a] text-white">
         <div className="alpha-container text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Join Our Mission
