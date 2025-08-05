@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import Navigation from '@/components/Navigation';
 import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
-import SectorsSection from '@/components/SectorsSection';
 import CTASection from '@/components/CTASection';
 import CareersSection from '@/components/CareersSection';
 import SmallCTASection from '@/components/SmallCTASection';
@@ -24,7 +23,6 @@ const Index = () => {
       <CTASection />
       <AboutSection />
       <ServicesSection />
-      <SectorsSection />
       <CareersSection />
       <SmallCTASection />
       <Footer />

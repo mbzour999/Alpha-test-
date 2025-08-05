@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import VisionMission from "./pages/VisionMission";
 import Team from "./pages/Team";
+import Industries from "./pages/Industries";
 import Contact from "./pages/Contact";
 import Careers from "./pages/Careers";
 import DataAnalytics from "./pages/services/DataAnalytics";
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/vision-mission" element={<VisionMission />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/industries" element={<Industries />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/services/data-analytics" element={<DataAnalytics />} />
