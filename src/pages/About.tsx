@@ -39,7 +39,7 @@ const About = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-alpha-primary/5 to-alpha-secondary/5">
+      <section className="pt-32 pb-16 bg-gradient-to-br from-alpha-primary/5 to-alpha-secondary/5">
         <div className="alpha-container">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-alpha-foreground mb-6">
