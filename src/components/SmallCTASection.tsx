@@ -29,7 +29,7 @@ const SmallCTASection = () => {
             <Button 
               variant="outline"
               size="lg"
-              className="border-2 border-alpha-primary text-alpha-primary hover:bg-alpha-primary hover:text-white rounded-full px-8 py-4 font-semibold transition-all duration-300 group"
+              className="border-2 border-[#00e66a] text-[#00e66a] hover:bg-[#00e66a] hover:text-white rounded-full px-8 py-4 font-semibold transition-all duration-300 group"
               asChild
             >
               <Link to="/contact">
