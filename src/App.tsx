@@ -15,6 +15,11 @@ import DataAnalytics from "./pages/services/DataAnalytics";
 import AIAssistants from "./pages/services/AIAssistants";
 import PredictionModels from "./pages/services/PredictionModels";
 import RecommendationModels from "./pages/services/RecommendationModels";
+import RegressionModels from "./pages/services/RegressionModels";
+import SentimentAnalysis from "./pages/services/SentimentAnalysis";
+import ClusteringModels from "./pages/services/ClusteringModels";
+import ComputerVision from "./pages/services/ComputerVision";
+import TemporalAnalysis from "./pages/services/TemporalAnalysis";
 import RetailEcommerce from "./pages/sectors/RetailEcommerce";
 import JobApplication from "./pages/JobApplication";
 
@@ -39,6 +44,11 @@ const App = () => (
           <Route path="/services/ai-assistants" element={<AIAssistants />} />
           <Route path="/services/prediction-models" element={<PredictionModels />} />
           <Route path="/services/recommendation-models" element={<RecommendationModels />} />
+          <Route path="/services/regression-models" element={<RegressionModels />} />
+          <Route path="/services/sentiment-analysis" element={<SentimentAnalysis />} />
+          <Route path="/services/clustering-models" element={<ClusteringModels />} />
+          <Route path="/services/computer-vision" element={<ComputerVision />} />
+          <Route path="/services/temporal-analysis" element={<TemporalAnalysis />} />
           <Route path="/sectors/retail-ecommerce" element={<RetailEcommerce />} />
           <Route path="/careers/:jobId/apply" element={<JobApplication />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

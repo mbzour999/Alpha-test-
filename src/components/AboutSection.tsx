@@ -42,8 +42,10 @@ const AboutSection = () => {
           <p className="text-lg text-alpha-neutral-800 leading-relaxed max-w-3xl mx-auto mb-8">
             {t('about.description')}
           </p>
-          <Button className="bg-alpha-primary hover:bg-alpha-primary/90 text-white px-8 py-3">
+          <Button className="bg-alpha-primary hover:bg-alpha-primary/90 text-white px-8 py-3" asChild>
+            <Link to="/about">
             About Us
+            </Link>
           </Button>
         </div>
 

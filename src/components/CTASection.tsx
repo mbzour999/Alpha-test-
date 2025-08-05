@@ -63,21 +63,27 @@ const CTASection = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in delay-500">
-            <Button 
+            <Button
+              asChild
               size="lg"
               className="group bg-white/95 backdrop-blur-md text-alpha-primary hover:bg-white border border-white/50 rounded-full px-12 py-6 text-xl font-semibold shadow-2xl hover:shadow-white/40 transition-all duration-500 hover:scale-105"
             >
+              <Link to="/contact">
               {t('cta.startJourney')}
               <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
+              </Link>
             </Button>
             
-            <Button 
+            <Button
+              asChild
               variant="outline"
               size="lg"
               className="group border-2 border-white text-white bg-white/20 hover:bg-white/30 backdrop-blur-md rounded-full px-12 py-6 text-xl font-semibold transition-all duration-500 hover:scale-105"
             >
+              <Link to="/about">
               {t('cta.watchDemo')}
               <Zap className="ml-3 h-6 w-6 group-hover:rotate-12 transition-transform duration-300" />
+              </Link>
             </Button>
           </div>
 

@@ -57,12 +57,15 @@ const CareersSection = () => {
         </div>
 
         <div className="text-center fade-in-up-delay-3">
-          <Button 
+          <Button
+            asChild
             size="lg" 
             className="alpha-btn-primary text-white border-0 px-8 py-6 text-lg font-semibold group"
           >
+            <Link to="/careers">
             {t('careers.exploreCareers')}
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </Link>
           </Button>
         </div>
       </div>

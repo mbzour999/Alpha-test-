@@ -18,12 +18,15 @@ const SmallCTASection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
+            <Button
+              asChild
               size="lg"
               className="bg-alpha-primary hover:bg-alpha-primary/90 text-white rounded-full px-8 py-4 font-semibold transition-all duration-300 group"
             >
+              <Link to="/contact">
               {t('smallCta.getStarted')}
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
+              </Link>
             </Button>
             
             <Button 
