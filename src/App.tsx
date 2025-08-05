@@ -14,6 +14,7 @@ import Careers from "./pages/Careers";
 import DataAnalytics from "./pages/services/DataAnalytics";
 import AIAssistants from "./pages/services/AIAssistants";
 import PredictionModels from "./pages/services/PredictionModels";
+import RecommendationModels from "./pages/services/RecommendationModels";
 import RetailEcommerce from "./pages/sectors/RetailEcommerce";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ const App = () => (
           <Route path="/services/data-analytics" element={<DataAnalytics />} />
           <Route path="/services/ai-assistants" element={<AIAssistants />} />
           <Route path="/services/prediction-models" element={<PredictionModels />} />
+          <Route path="/services/recommendation-models" element={<RecommendationModels />} />
           <Route path="/sectors/retail-ecommerce" element={<RetailEcommerce />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
