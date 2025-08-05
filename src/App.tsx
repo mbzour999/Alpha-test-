@@ -16,6 +16,7 @@ import AIAssistants from "./pages/services/AIAssistants";
 import PredictionModels from "./pages/services/PredictionModels";
 import RecommendationModels from "./pages/services/RecommendationModels";
 import RetailEcommerce from "./pages/sectors/RetailEcommerce";
+import JobApplication from "./pages/JobApplication";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,7 @@ const App = () => (
           <Route path="/services/prediction-models" element={<PredictionModels />} />
           <Route path="/services/recommendation-models" element={<RecommendationModels />} />
           <Route path="/sectors/retail-ecommerce" element={<RetailEcommerce />} />
+          <Route path="/careers/:jobId/apply" element={<JobApplication />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

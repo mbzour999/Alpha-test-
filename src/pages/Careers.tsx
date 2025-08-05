@@ -208,7 +208,7 @@ const Careers = () => {
                     
                     <div className="lg:ml-6">
                       <Button asChild>
-                        <Link to={`/careers/${job.id}`}>
+                        <Link to={`/careers/${job.id}/apply`}>
                           Apply Now
                           <ArrowRight className="ml-2 h-4 w-4" />
                         </Link>
