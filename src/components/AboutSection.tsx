@@ -33,21 +33,39 @@ const AboutSection = () => {
   return (
     <section id="about" className="alpha-section-padding bg-alpha-neutral-50">
       <div className="alpha-container">
-        <div className="max-w-4xl mx-auto text-center mb-16 fade-in-up">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-alpha-primary mb-6">
-            {t('about.title')}
-          </h2>
-          <p className="text-xl md:text-2xl text-alpha-primary font-medium leading-relaxed mb-8">
-            {t('about.headline')}
-          </p>
-          <p className="text-lg text-alpha-neutral-800 leading-relaxed max-w-3xl mx-auto mb-8">
-            {t('about.description')}
-          </p>
-          <Button className="bg-alpha-primary hover:bg-alpha-primary/90 text-white px-8 py-3" asChild>
-            <Link to="/about">
-            About Us
-            </Link>
-          </Button>
+        {/* About Content with Video */}
+        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="fade-in-up">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-alpha-primary mb-6">
+              {t('about.title')}
+            </h2>
+            <p className="text-xl md:text-2xl text-alpha-primary font-medium leading-relaxed mb-8">
+              {t('about.headline')}
+            </p>
+            <p className="text-lg text-alpha-neutral-800 leading-relaxed mb-8">
+              {t('about.description')}
+            </p>
+            <Button className="bg-alpha-primary hover:bg-alpha-primary/90 text-white px-8 py-3" asChild>
+              <Link to="/about">
+                About Us
+              </Link>
+            </Button>
+          </div>
+          
+          {/* Video Section */}
+          <div className="fade-in-up-delay-1">
+            <div className="relative aspect-video bg-gradient-to-br from-alpha-primary/20 to-alpha-secondary/20 rounded-3xl overflow-hidden shadow-lg">
+              <video 
+                className="w-full h-full object-cover"
+                controls
+                poster="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
+              >
+                <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="absolute inset-0 bg-gradient-to-br from-alpha-primary/10 to-transparent rounded-3xl pointer-events-none"></div>
+            </div>
+          </div>
         </div>
 
         {/* Values Grid */}
