@@ -7,13 +7,13 @@ const SmallCTASection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-20 bg-gradient-to-r from-alpha-neutral-50 to-alpha-neutral-100">
+    <section className="py-20 bg-gradient-to-r from-[#009ec2] to-[#00e66a]">
       <div className="alpha-container">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-alpha-secondary mb-4">
+        <div className="max-w-4xl mx-auto text-center text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             {t('smallCta.title')}
           </h2>
-          <p className="text-lg text-alpha-neutral-800 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
             {t('smallCta.subtitle')}
           </p>
           
@@ -21,7 +21,7 @@ const SmallCTASection = () => {
             <Button
               asChild
               size="lg"
-              className="bg-alpha-primary hover:bg-alpha-primary/90 text-white rounded-full px-8 py-4 font-semibold transition-all duration-300 group"
+              className="bg-white/95 backdrop-blur-md text-alpha-primary hover:bg-white border border-white/50 rounded-full px-8 py-4 font-semibold transition-all duration-300 group"
             >
               <Link to="/contact">
               {t('smallCta.getStarted')}
@@ -32,7 +32,7 @@ const SmallCTASection = () => {
             <Button 
               variant="outline"
               size="lg"
-              className="border-2 border-[#00e66a] text-[#00e66a] hover:bg-[#00e66a] hover:text-white rounded-full px-8 py-4 font-semibold transition-all duration-300 group"
+              className="border-2 border-white text-white bg-white/20 hover:bg-white/30 backdrop-blur-md rounded-full px-8 py-4 font-semibold transition-all duration-300 group"
               asChild
             >
               <Link to="/contact">
