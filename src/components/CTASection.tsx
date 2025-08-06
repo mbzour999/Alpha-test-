@@ -91,8 +91,8 @@ const CTASection = () => {
           {/* Stats or Social Proof */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 animate-fade-in delay-700">
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">500+</div>
-              <div className="text-white/70">{t('cta.stats.projects')}</div>
+              <div className="text-4xl font-bold text-white mb-2">150+</div>
+              <div className="text-white/70">Clients Served</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-white mb-2">95%</div>

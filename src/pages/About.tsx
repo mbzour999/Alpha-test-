@@ -10,8 +10,7 @@ const About = () => {
   const { t } = useTranslation();
 
   const stats = [
-    { label: 'Projects Completed', value: '150+' },
-    { label: 'Clients Served', value: '80+' },
+    { label: 'Clients Served', value: '150+' },
     { label: 'Industries', value: '15+' },
     { label: 'Years Experience', value: '10+' },
   ];
