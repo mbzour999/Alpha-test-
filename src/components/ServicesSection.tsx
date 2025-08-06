@@ -128,7 +128,7 @@ const ServicesSection = () => {
                               </p>
                               
                               <div className="text-sm text-alpha-primary font-medium">
-                                Click to learn more
+                                {t('ui.clickToLearnMore')}
                               </div>
                             </div>
                           </CardContent>
