@@ -178,6 +178,16 @@
     --tw-space-x-reverse: 1;
   }
 
+  /* RTL Navigation spacing adjustments */
+  [dir="rtl"] .nav-spacing {
+    gap: 3rem;
+  }
+
+  [dir="rtl"] .nav-item {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
   /* RTL text alignment */
   [dir="rtl"] .text-left {
     text-align: right;
