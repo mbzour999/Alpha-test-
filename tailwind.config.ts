@@ -77,6 +77,7 @@ export default {
 			},
 			fontFamily: {
 				roboto: ['Roboto', 'sans-serif'],
+				tajawal: ['Tajawal', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

@@ -13,7 +13,7 @@ const LanguageToggle = () => {
     
     // Apply Alexandria font for Arabic
     if (newLang === 'ar') {
-      document.body.style.fontFamily = 'Alexandria, sans-serif';
+      document.body.style.fontFamily = 'Tajawal, sans-serif';
     } else {
       document.body.style.fontFamily = 'Roboto, sans-serif';
     }
