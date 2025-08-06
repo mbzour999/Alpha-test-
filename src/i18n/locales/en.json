@@ -152,5 +152,11 @@
     "title": "Ready to transform your business?",
     "subtitle": "Join hundreds of companies using AI to revolutionize their operations. Let's discuss how we can help you achieve your goals.",
     "getStarted": "Get Started Today"
+  },
+  "ui": {
+    "clickToLearnMore": "Click to learn more",
+    "contactUs": "Contact Us",
+    "clientsServed": "Clients Served",
+    "expertSupport": "Expert support"
   }
 }

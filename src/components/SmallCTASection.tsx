@@ -37,7 +37,7 @@ const SmallCTASection = () => {
             >
               <Link to="/contact">
                 <MessageCircle className="mr-2 h-5 w-5" />
-                Contact Us
+                {t('ui.contactUs')}
               </Link>
             </Button>
           </div>
